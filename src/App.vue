@@ -3,7 +3,7 @@
 
 <template>
   <header>
-    <nav>
+    <nav class="text-center">
       <router-link to="/">Connexion</router-link> | 
       <router-link to="/dashboard">Dashboard</router-link>
     </nav>
