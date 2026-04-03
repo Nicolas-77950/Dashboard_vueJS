@@ -77,7 +77,7 @@ const router = useRouter()
 
 const handleLogin = () => {
   if (email.value === 'test@test.com' && password.value === '1234') {
-    // 1. On "sauvegarde" la connexion dans le navigateur
+
     localStorage.setItem('user_authenticated', 'true')
 
     localStorage.setItem('user_email', email.value)
