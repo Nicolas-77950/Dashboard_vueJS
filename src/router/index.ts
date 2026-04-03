@@ -1,16 +1,20 @@
 import { createRouter, createWebHistory, type RouteRecordRaw } from 'vue-router'
-import LoginView from '../views/LoginView.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
     name: 'login',
-    component: LoginView
+    component: () => import('../views/login/LoginView.vue') 
   },
   {
     path: '/dashboard',
     name: 'dashboard',
-    component: () => import('../views/DashboardView.vue')
+    component: () => import('../views/dashboard/DashboardView.vue')
+  },
+  {
+    path: '/register',
+    name: 'register',
+    component: () => import('../views/register/RegisterView.vue')
   }
 ]
 
