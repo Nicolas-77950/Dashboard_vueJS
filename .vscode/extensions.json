@@ -1,3 +1,7 @@
 {
-  "recommendations": ["Vue.volar"]
+  "recommendations": [
+    "Vue.volar",
+    "bmewburn.vscode-intelephense-client",
+    "sensiolabs.symfony-vscode-extension"
+  ]
 }
